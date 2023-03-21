@@ -27,26 +27,27 @@ p{
 nav{
     flex:40%;
 }
-
-.header > h1{
+header {
     background-color:skyblue;
+}
+header > h1{
     margin: 0;
     padding: 20px 0px 20px 0px;
     font-size: 50px;
     font-weight: 900;
     text-align: center;
 }
-.nav {
+nav {
     background-color: peachpuff;
     padding-top: 30px;
     font-size: 18px;
     font-weight: 700;
     height:auto; 
 }
-.nav a{
+nav a{
     text-decoration-line:none;
 }
-.nav ol {
+nav ol {
     line-height:30px;
 }
 .content{
